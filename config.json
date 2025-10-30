@@ -1,0 +1,78 @@
+{
+  "prefix": "/",
+  "usePrefix": true,
+  "adminUID": [],
+  "onlyAdmin": false,
+  "onlyAdminMessage": "⚠️ This bot is in admin-only mode. Only admins can use commands.",
+  "timezone": "Asia/Dhaka",
+  "botStartNotification": {
+    "enabled": false,
+    "sendToAdmins": true,
+    "sendToThreads": false,
+    "threadIds": []
+  },
+  "ownerName": "ST | Sheikh Tamim",
+  "botName": "STG | BOT",
+  "token": "",
+  "allowInboxMode": true,
+  "logLevel": "info",
+  "disabledCommands": [],
+  "disabledEvents": [],
+  "database": {
+    "type": "json",
+    "uriMongodb": "",
+    "autoSyncWhenStart": false,
+    "autoRefreshThreadInfoFirstTime": true,
+    "notes": "(1) type selects 'json' or 'mongodb'. If you choose mongodb, enter uri connect mongodb in the uriMongodb section. I recommend using 'mongodb', json is not recommended for large scale. (2) when you set autoSyncWhenStart to true, the bot will automatically synchronize the data in the database when starting the bot, this will make the bot start slower. (3) when you set autoRefreshThreadInfoFirstTime to true, the bot will automatically refresh the thread information when get first message from the thread since starting the bot"
+  },
+  "levelSystem": {
+    "enabled": true,
+    "expPerMessage": 5,
+    "expToLevelUp": 100
+  },
+  "dashBoard": {
+    "enable": true,
+    "port": 3021,
+    "passwordProtection": {
+      "enable": false,
+      "password": "",
+      "notes": "Enable password protection for dashboard access"
+    }
+  },
+  "serverUptime": {
+    "enable": false,
+    "port": 3001,
+    "socket": {
+      "enable": true,
+      "channelName": "uptime",
+      "verifyToken": "stbotkey"
+    }
+  },
+  "autoUptime": {
+    "enable": false,
+    "url": "",
+    "timeInterval": 180
+  },
+  "allowCustomPrefix": true,
+  "ignoreOldMessages": {
+    "enabled": true,
+    "note": "When enabled, bot will ignore messages sent while it was offline"
+  },
+  "showCommandSuggestions": {
+    "enabled": true,
+    "note": "Show command list in Telegram menu (may add @botname in groups)"
+  },
+  "groupApproval": {
+    "enabled": true,
+    "note": "When enabled, bot will require admin approval when added to groups"
+  },
+  "dmApproval": {
+    "enabled": true,
+    "note": "When enabled, users need approval to use bot in DM"
+  },
+  "adminReactionUnsend": {
+    "enabled": true,
+    "emoji": "👍",
+    "note": "When enabled, admins can react with specified emoji to bot messages to delete them"
+  }
+}

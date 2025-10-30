@@ -1,0 +1,36 @@
+{
+  "name": "stg-telegraf",
+  "version": "1.0.0",
+  "description": "Advanced Telegram Bot Framework built with Telegraf",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index"
+  },
+  "keywords": [
+    "telegram",
+    "bot",
+    "telegraf",
+    "framework"
+  ],
+  "author": "ST | Sheikh Tamim",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sheikhtamimlover/STG_Telegraf.git"
+  },
+  "dependencies": {
+    "@types/node": "^22.13.11",
+    "axios": "^1.12.2",
+    "express": "^5.1.0",
+    "fs-extra": "^11.3.2",
+    "moment-timezone": "^0.6.0",
+    "mongoose": "^8.19.2",
+    "pm2": "^6.0.13",
+    "sharp": "^0.34.4",
+    "socket.io": "^4.8.1",
+    "socket.io-client": "^4.8.1",
+    "stencyption": "^1.0.10",
+    "telegraf": "^4.16.3",
+    "yt-search": "^2.13.1"
+  }
+}
