@@ -7,7 +7,7 @@
 
 ### Advanced Telegram Bot Framework Built with Telegraf
 
-[![Version](https://img.shields.io/badge/version-1.2.0-blue.svg)](https://github.com/sheikhtamimlover/STG_Telegraf)
+[![Version](https://img.shields.io/badge/version-1.0.0-blue.svg)](https://github.com/sheikhtamimlover/STG_Telegraf)
 [![Node.js](https://img.shields.io/badge/node.js-18+-green.svg)](https://nodejs.org/)
 [![License](https://img.shields.io/badge/license-MIT-yellow.svg)](LICENSE)
 [![Telegraf](https://img.shields.io/badge/telegraf-4.16.3-blue.svg)](https://telegraf.js.org/)
